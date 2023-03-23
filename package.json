@@ -1,0 +1,20 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Backedn API for write todo",
+  "main": "app.js",
+  "author": "Rijal Ghodi",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "supervisor app"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.2"
+  },
+  "devDependencies": {}
+}
